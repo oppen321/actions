@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - name: Free disk space
-      uses: sbwml/actions@free-disk
+      uses: oppen321/actions@free-disk
 
     - name: Show system
       run: |
