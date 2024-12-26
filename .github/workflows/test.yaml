@@ -15,10 +15,5 @@ jobs:
         shell: bash
 
     steps:
-    - name: Free disk space
-      uses: sbwml/actions@free-disk
-
-    - name: Show system
-      run: |
-        free -h
-        df -Th
+    - name: Build System Setup
+      uses: oppen321/actions@openwrt-build-setup
