@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@main
 
       - name: Install LLVM
-        uses: sbwml/actions@install-llvm
+        uses: oppen321/actions@install-llvm
 
       - name: Test
         run: |
