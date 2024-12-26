@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Free disk space
-        uses: sbwml/actions@free-disk
+        uses: oppen321/actions@free-disk
         with:
           root-reserve-gb: 4
           swap-size-gb: 4
