@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - name: Free disk space
-      uses: sbwml/actions@install-llvm
+      uses: oppen321/actions@install-llvm
 
     - name: clang version
       run: |
